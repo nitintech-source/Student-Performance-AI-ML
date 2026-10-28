@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 APP_DIR = Path(__file__).parent
-DATA_PATH = APP_DIR / "data" / "student_performance.csv"
+DATA_PATH = APP_DIR / "student_performance.csv"
 FEATURES = ["study_hours", "attendance", "previous_score", "sleep_hours", "assignments_completed"]
 TARGET = "final_score"
 
