@@ -1,0 +1,16 @@
+PROJECT QUICK START (Windows / VS Code)
+
+1. Extract the ZIP.
+2. Open this folder in VS Code.
+3. Terminal > New Terminal.
+4. Run:
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   streamlit run app.py
+
+If PowerShell blocks activation:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   .\.venv\Scripts\Activate.ps1
+
+The included dataset is synthetic demo data. See README.md and Project_Report_and_Viva.docx.
